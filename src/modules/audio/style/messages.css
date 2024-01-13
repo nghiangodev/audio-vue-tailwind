@@ -1,0 +1,56 @@
+.message-voting {
+  margin: 12px 0;
+}
+.message-voting .card {
+  background: none;
+  border: none;
+  width: 450px;
+  border-radius: 10px;
+  min-height: 200px;
+}
+.message-voting .card .date-message {
+  width: 100px;
+  padding: 3px;
+  margin: auto;
+  border-radius: 20px;
+  background: rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px);
+}
+.message-voting .card .card-header {
+  border-radius: 15px;
+  border: none;
+  height: 26px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 15px;
+  background: white;
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 0.8125rem;
+  color: #476285;
+}
+.message-voting .card .card-body {
+  border-radius: 15px 15px 0 0;
+  background: white;
+}
+.message-voting .card .card-body .btn-custom-voting {
+  color: white;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #8f68eb;
+}
+.message-voting .card .card-body .image-front,
+.message-voting .card .card-body .image-back {
+  object-fit: cover;
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-left: -8px;
+}
+.message-voting .card .card-footer {
+  border-radius: 0 0 15px 15px;
+  background: white;
+  border: none;
+}
+
+/*# sourceMappingURL=messages.css.map */

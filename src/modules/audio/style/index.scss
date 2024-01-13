@@ -1,0 +1,10 @@
+.vertical-range {
+  writing-mode: bt-lr;
+  writing-mode: sideways-rl;
+  appearance: slider-vertical;
+  width: 100%;
+  transform: rotate(0deg);
+  cursor: ew-resize;
+  background: linear-gradient(to bottom, #3490dc, #91c5ff);
+  cursor: ns-resize;
+}
